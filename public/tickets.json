@@ -1,0 +1,137 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still can't access.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Not Going Through",
+    "description": "Customer reports that payment fails during checkout with an error message 'Transaction declined'.",
+    "customer": "Emily Johnson",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-02-05"
+  },
+  {
+    "id": "#1003",
+    "title": "Website Loading Slowly",
+    "description": "User reports the main dashboard takes over 10 seconds to load on desktop.",
+    "customer": "Michael Lee",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-03-10"
+  },
+  {
+    "id": "#1004",
+    "title": "Unable to Reset Password",
+    "description": "Customer gets an error message when trying to reset password via email link.",
+    "customer": "Sophia Brown",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-03-22"
+  },
+  {
+    "id": "#1005",
+    "title": "Feature Request - Dark Mode",
+    "description": "User requested to add a dark mode option in the settings page.",
+    "customer": "Chris Evans",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-04-02"
+  },
+  {
+    "id": "#1006",
+    "title": "Mobile App Crash",
+    "description": "App crashes immediately upon launch on Android version 12.",
+    "customer": "Linda Martinez",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-04-18"
+  },
+  {
+    "id": "#1007",
+    "title": "Billing Discrepancy",
+    "description": "Customer charged twice for the same subscription period.",
+    "customer": "David Wilson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-05-09"
+  },
+  {
+    "id": "#1008",
+    "title": "Email Notifications Not Received",
+    "description": "User reports they are not receiving order confirmation emails.",
+    "customer": "Olivia Taylor",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-05-27"
+  },
+  {
+    "id": "#1009",
+    "title": "Incorrect Order Details",
+    "description": "Customer received wrong items in their order summary.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-06-03"
+  },
+  {
+    "id": "#1010",
+    "title": "Feedback - Excellent Service",
+    "description": "Customer praised the quick response time of support team.",
+    "customer": "Sarah Davis",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2024-06-21"
+  },
+  {
+    "id": "#1011",
+    "title": "Refund Request Pending",
+    "description": "Customer requested a refund but hasn't received confirmation.",
+    "customer": "Robert King",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-07-02"
+  },
+  {
+    "id": "#1012",
+    "title": "Broken Link on Help Page",
+    "description": "Help page contains a link that leads to a 404 error.",
+    "customer": "Emma Harris",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-07-17"
+  },
+  {
+    "id": "#1013",
+    "title": "Unable to Upload Files",
+    "description": "User reports upload button doesn't respond on Chrome browser.",
+    "customer": "Daniel Clark",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-08-05"
+  },
+  {
+    "id": "#1014",
+    "title": "Subscription Auto-Renew Error",
+    "description": "Customer’s subscription did not renew automatically despite being enabled.",
+    "customer": "Mia Lopez",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-09-01"
+  },
+  {
+    "id": "#1015",
+    "title": "Security Concern - Suspicious Login",
+    "description": "Customer noticed unauthorized login attempts from unknown location.",
+    "customer": "Ethan Walker",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-10-10"
+  }
+]
