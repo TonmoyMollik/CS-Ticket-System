@@ -1,16 +1,16 @@
-# React + Vite
+What is JSX, and why is it used?
+JSX stands for JavaScript XML. It is a syntax extension for JavaScript that allows you to write HTML-like code directly inside your JavaScript files. It is used because it makes writing React components much easier and more readable. Instead of using complex React.createElement() commands, you can write familiar HTML tags. React then converts this JSX into optimized JavaScript.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+What is the difference between State and Props?
+In React, both are used to manage data, but they have different roles. State is data owned and managed locally by the component. It is mutable, meaning it can be changed using a setter function. On the other hand, Props are data passed from a parent component to a child. They are immutable, which means they are read-only for the child. While a component controls its own state, props are controlled by the parent component.
 
-Currently, two official plugins are available:
+What is the useState hook, and how does it work?
+The useState hook is a function that allows functional components to have their own local state. It returns an array with two elements: the current state value and a setter function used to update that state. When the setter function is called, React triggers a re-render of the component to reflect the new data on the user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+How can you share state between components in React?
+There are three main ways to share state. First is Lifting State Up, which involves moving the state to the closest common parent component and passing it down via props. Second is using the Context API to share state globally without passing props through every level. Third is using state management libraries like Redux or Zustand for complex, large-scale applications.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How is event handling done in React?
+Event handling in React is similar to HTML but with key syntax differences. First, it uses camelCase naming, so instead of onclick, React uses onClick. Second, you pass a function as the handler rather than a string. For example:
+const handleClick = () => { console.log("Clicked!"); };
+<button onClick={handleClick}>Click Me</button>
